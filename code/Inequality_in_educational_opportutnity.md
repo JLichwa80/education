@@ -106,12 +106,12 @@ log_total_expenditures    0.038     0.012       3.09   0.002
 
 </div>
 
-From the result above we can see that district expenditure is statistically significant predictor (p < 0.05) with positive coefficient, indicating that higher school district expenditure is associated with higher average exam scores. It also improved our R-squared value to 0.629 from 0.628, and  the Mean Absolute Error (MAE) has marginally decreased to 1.143453.
+From the result above we can see that district expenditure is statistically significant predictor (p < 0.05) with positive coefficient, indicating that higher school district expenditure is associated with higher average exam scores regardless previous regression slight negative correlation. It also improved our R-squared value to 0.629 from 0.628, and  the Mean Absolute Error (MAE) has marginally decreased to 1.143453.
 
-It helps to confirm our hypothesis that school investment positively impacts student performance on college entrance exams, even after accounting for socioeconomic factors.
+It helps to confirm our hypothesis that school investment positively impacts student performance on college entrance exams, even when inital regression analysis showed negative correlation.
 
 ## Conclusion
-In conclusion, our analysis demonstrates that socioeconomic factors such as unemployment rate, percentage of adults with college degrees, and percentage of students eligible for free or reduced-price lunch significantly influence average exam scores on college entrance exams. Additionally, school district expenditure also plays a positive role in enhancing student performance, but it would require per school level expenditure data for more accurate analysis.
+In conclusion, our analysis demonstrates that socioeconomic factors such as unemployment rate, percentage of adults with college degrees, and percentage of students eligible for free or reduced-price lunch significantly influence average exam scores on college entrance exams. Additionally, school district expenditure also plays a role in enhancing student performance, but it would require per school level expenditure data for more accurate analysis.
 
 ## Data Sources and Methods
 
