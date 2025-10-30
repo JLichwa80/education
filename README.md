@@ -1,16 +1,16 @@
-# Project Title (This is a template README.md file that you can adapt to your project)
+# Inequality in Educational Opportunity
 
-> A brief description of what the project does and its purpose.
+> Analysis of socioeconomic factors affecting college entrance exam scores in U.S. high schools (2016-2017).
 
 ---
 
 ## Project Overview
 
-Provide a short and concise overview of the project. Mention the problem it solves, the data used, and the key outcomes or findings.
+This project examines the relationship between socioeconomic factors and student performance on ACT/SAT college entrance exams.
 
-- **Objective:** Clearly state the main goal of the project.
-- **Domain:** (e.g., Healthcare, Finance, E-commerce, etc.)
-- **Key Techniques:** (e.g., Regression, Classification, Clustering, NLP, Time Series)
+- **Objective:** Determine if socioeconomic factors and school investment significantly influence average exam scores
+- **Domain:** Education
+- **Key Techniques:** Multilinear Regression (OLS), Correlation Analysis, Data Transformation (Log)
 
 ---
 
@@ -18,9 +18,8 @@ Provide a short and concise overview of the project. Mention the problem it solv
 
 ```
 ├── data/                 # Raw and processed data
-├── code/                 # Jupyter notebooks and Python scripts
-├── reports/              # Generated reports and visualizations
-├── requirements.txt      # Dependencies
+├── code/                 # Jupyter notebooks and analysis report
+├── reports/              # Generated PDF report and visualizations
 └── README.md             # Project documentation
 ```
 
@@ -28,38 +27,14 @@ Provide a short and concise overview of the project. Mention the problem it solv
 
 ## Data
 
-- **Source:** Link to the data source(s) 
-- **Description:** Brief overview of the dataset features, size, and format
-- **License:** (if applicable)
+- **Source:** [EdGap.org](https://edgap.org/) and [NCES](https://nces.ed.gov/)
+- **Description:** Schools data with ACT/SAT scores, socioeconomic indicators (unemployment rate, college education, free/reduced lunch eligibility), and district expenditure data
+- **Geographic Coverage:** Primarily Midwest and southern U.S. states
 
 ---
 
-## Analysis
 
-Describe the notebooks and/or scripts used to perform the analysis. Specify the order in which the code should be run to reproduce the results.
+## Tools Used
 
----
-
-## Results
-
-Include a short discussion of the findings and what they imply.
-
----
-
-## Authors
-
-- Your Name - [@yourhandle](https://github.com/yourhandle)
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgements
-
-- Tools/libraries used
-- Tutorials or papers referenced
-- Inspiration or collaborators
+- Python (pandas, numpy, sklearn, statsmodels, matplotlib, seaborn)
+- Jupyter Notebook
